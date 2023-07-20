@@ -6,17 +6,17 @@ function Header() {
     <>
       <header className="flex justify-center mt-10 left-[90px] right-[90px]">
         <div className="flex flex-row items-center">
-          <ul className="flex flex-row border-gray-500 border-2 space-x-8 px-8 py-4 bg-zinc-800 rounded-full">
-            <li className="text-white transition duration-200 hover:text-[#2DD4BF]">
+          <ul className="flex flex-row border-gray-500/10 border-2 space-x-8 px-8 py-4 bg-zinc-800/60 rounded-full">
+            <li className="text-white transition duration-200 hover:text-blue-400">
               <Link href={"/"}>Home</Link>
             </li>
-            <li className="text-white transition duration-200 hover:text-[#2DD4BF]">
+            <li className="text-white transition duration-200 hover:text-blue-400">
               <Link href={"/about"}>About</Link>
             </li>
-            <li className="text-white transition duration-200 hover:text-[#2DD4BF]">
+            <li className="text-white transition duration-200 hover:text-blue-400">
               <Link href={"/"}>Projects</Link>
             </li>
-            <li className="text-white transition duration-200 hover:text-[#2DD4BF]">
+            <li className="text-white transition duration-200 hover:text-blue-400">
               <Link href={"/"}>Uses</Link>
             </li>
           </ul>

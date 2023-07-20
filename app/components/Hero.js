@@ -18,17 +18,33 @@ function hero() {
             development like Laravel, CodeIgniter, and a solid understanding of
             React.
           </p>
-          <div className="flex flex-row mt-5 space-x-4 justify-center md:justify-normal">
-            <Link href={"https://twitter.com/adnanmaulana__"} target="_blank">
+          <div className=" flex flex-row mt-5 space-x-4 justify-center md:justify-normal">
+            <Link
+              className="hover:text-blue-500 transition duration-200"
+              href={"https://twitter.com/adnanmaulana__"}
+              target="_blank"
+            >
               <i class="bx bxl-twitter text-3xl"></i>
             </Link>
-            <Link href={"https://instagram.com/pixelmind__"} target="_blank">
+            <Link
+              className="hover:text-pink-500 transition duration-200"
+              href={"https://instagram.com/pixelmind__"}
+              target="_blank"
+            >
               <i class="bx bxl-instagram text-3xl"></i>
             </Link>
-            <Link href={"https://github.com/vdnanmaulana"} target="_blank">
+            <Link
+              className="hover:text-gray-400 transition duration-200"
+              href={"https://github.com/vdnanmaulana"}
+              target="_blank"
+            >
               <i class="bx bxl-github text-3xl"></i>
             </Link>
-            <Link href={"https://dribbble.com/adnanmaulana"} target="_blank">
+            <Link
+              className="hover:text-pink-500 transition duration-200"
+              href={"https://dribbble.com/adnanmaulana"}
+              target="_blank"
+            >
               <i class="bx bxl-dribbble text-3xl"></i>
             </Link>
           </div>
